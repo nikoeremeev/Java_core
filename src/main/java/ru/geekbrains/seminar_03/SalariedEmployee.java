@@ -1,6 +1,6 @@
 package ru.geekbrains.seminar_03;
 
-public class SalariedEmployee extends Worker {
+public class SalariedEmployee extends Employee {
 
     private double salary;
 

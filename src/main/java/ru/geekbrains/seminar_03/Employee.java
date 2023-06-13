@@ -1,9 +1,9 @@
 package ru.geekbrains.seminar_03;
 
-public abstract class Worker {
+public abstract class Employee {
     protected String name;
 
-    public Worker(String name) {
+    public Employee(String name) {
         this.name = name;
     }
 
