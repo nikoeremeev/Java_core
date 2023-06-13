@@ -8,4 +8,9 @@ public class HourlyEmployee extends Worker {
         this.hourlyRate = hourlyRate;
     }
 
+
+    @Override
+    public double calculateAverageSalary() {
+        return 20.8 * 8 * hourlyRate;
+    }
 }
