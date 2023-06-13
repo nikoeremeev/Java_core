@@ -7,7 +7,15 @@ public abstract class Worker {
         this.name = name;
     }
 
+    /**
+     * Abstract method of calculating the average monthly salary
+     */
+    public abstract double calculateAverageSalary();
+
+
     public String getName() {
         return name;
     }
+
+
 }
